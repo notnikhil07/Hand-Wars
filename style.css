@@ -4,10 +4,16 @@
     box-sizing: border-box;
 }
 
+body{
+        background-color: rgb(255, 230, 0);
+    }
+
+
+
 .navbar{
     color: white;
     text-align: center;
-    background-color: rgb(62, 18, 104);    
+    background-color: rgb(110, 32, 184);    
     font-size: 12px;
     height: 60px;
     line-height: 60px;
@@ -74,4 +80,38 @@ hr{
     
 }
 
+
+
+
+@media screen and (max-width: 768px) {
+    .choice img{
+        height: 150px;
+    }
+    .main_select button{
+        width: 40%;
+    }
+    
+
+}
+
+@media screen and (max-width: 600px) {
+
+    .choice img{
+        height: 110px;
+    }
+    .main_select button{
+        width: 40%;
+    }
+    
+
+}
+
+@media screen and (max-width: 400px) {
+
+
+    .choice img{
+        height: 80px;
+    }
+
+}
 
